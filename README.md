@@ -93,9 +93,3 @@
 - **Docker**: コンテナ化ツール。
 - **Node.js**: JavaScriptランタイム環境。
 - **TypeScript**: JavaScriptのスーパーセット。
-
----
-
-## ライセンス
-
-このプロジェクトは [MITライセンス](LICENSE) のもとで公開されています。
