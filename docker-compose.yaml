@@ -1,0 +1,13 @@
+services:
+  typescript-app:
+    build:
+      context: ./
+      dockerfile: docker-config/typescript/Dockerfile
+    volumes:
+      - ./src:/app/src
+      - /app/node_modules
+    ports:
+      - "3000:3000" # 必要に応じてポート番号を変更
+    environment:
+      - NODE_ENV=development
+    command: ["npm", "run", "dev"] # TypeScriptプロジェクトの実行コマンド

@@ -1,0 +1,12 @@
+{
+    "name": "typescript-docker-sample",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "tsc",
+        "dev": "node ./src/js/index.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^5.6.0"
+    }
+}
