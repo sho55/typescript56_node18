@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./src/js",
     "rootDir": "./src/ts",
-    "target": "ES6",
+    "target": "ES2016",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true
